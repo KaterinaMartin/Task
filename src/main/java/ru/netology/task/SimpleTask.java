@@ -7,6 +7,7 @@ public class SimpleTask extends Task {
         super(id);
         this.title = title;
     }
+
     public String getTitle() {
         return title;
     }
@@ -16,4 +17,3 @@ public class SimpleTask extends Task {
         return title.contains(query);
     }
 }
-
