@@ -31,7 +31,7 @@ class TaskTest {
         String[] subtasks = { "Молоко", "Яйца", "Хлеб" };
         Epic epic = new Epic(55, subtasks);
 
-        boolean actual = epic.matches("яйца");
+        boolean actual = epic.matches("Яйца");
         boolean expected = true;
 
         Assertions.assertEquals(expected, actual);
